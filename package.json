@@ -1,0 +1,25 @@
+{
+  "name": "babel-bigint-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.29.1",
+    "jsbi": "^4.3.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-bigint": "^7.8.3",
+    "babel-plugin-transform-bigint": "github:Yaffle/babel-plugin-transform-bigint",
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+    "start": "node lib/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

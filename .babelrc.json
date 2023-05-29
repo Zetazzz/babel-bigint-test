@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "@babel/preset-typescript",
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": "3.22",
+        "targets": {
+          "node": 8
+        }
+      }
+    ]
+  ],
+  "plugins": ["@babel/plugin-syntax-bigint", "babel-plugin-transform-bigint"]
+}
