@@ -7,7 +7,7 @@
         "useBuiltIns": "usage",
         "corejs": "3.22",
         "targets": {
-          "node": 8
+          "node": 18
         }
       }
     ]
