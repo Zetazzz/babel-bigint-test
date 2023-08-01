@@ -7,10 +7,10 @@
         "useBuiltIns": "usage",
         "corejs": "3.22",
         "targets": {
-          "node": 18
+          "node": 8
         }
       }
     ]
   ],
-  "plugins": ["@babel/plugin-syntax-bigint", "babel-plugin-transform-bigint"]
+  "plugins": ["@babel/plugin-syntax-bigint",["@cosmology/babel-plugin-transform-bigint", { "jsbiLib": "jsbi" }]]
 }

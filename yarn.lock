@@ -1015,6 +1015,13 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@cosmology/babel-plugin-transform-bigint@^1.0.32":
+  version "1.0.32"
+  resolved "https://registry.npmmirror.com/@cosmology/babel-plugin-transform-bigint/-/babel-plugin-transform-bigint-1.0.32.tgz#0f2230aa1239e9b1a37f96a2eccbb31694190dea"
+  integrity sha512-URIL1kw+oRm9Rwp1kjX7Pn7gE+jBeDr//q2ffz8sUFdIddrgLQPtFUxK/Sm6TpIQCf3b1S4rQKTy/PC67COT3Q==
+  dependencies:
+    "@babel/plugin-syntax-bigint" "^7.8.3"
+
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.npmmirror.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz#7e02e6eb5df901aaedb08514203b096614024098"
@@ -1400,6 +1407,11 @@ ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+
+ncp@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/ncp/-/ncp-2.0.0.tgz#195a21d6c46e361d2fb1281ba38b91e9df7bdbb3"
+  integrity sha512-zIdGUrPRFTUELUvr3Gmc7KZ2Sw/h1PiVM0Af/oHB6zgnV1ikqSfRk+TOufi79aHYCW3NiOXmr1BP5nWbzojLaA==
 
 node-releases@^2.0.12:
   version "2.0.12"
